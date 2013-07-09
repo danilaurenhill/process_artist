@@ -34,7 +34,7 @@ get "/hello/:name" do
 end
 
 get "/more/*" do
-	params[:splat]
+  params[:splat]
 end
 
 get "/" do
